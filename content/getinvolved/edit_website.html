@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/images/favicon.ico">
+
+    <title>Apache Roller</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/bootstrap-3.2.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap theme -->
+    <link href="/bootstrap-3.2.0/css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/css/roller.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="./index.html">Apache Roller</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Project Info <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="http://rollerweblogger.org/project">Team Blog</a></li>
+                        <li><a href="http://cwiki.apache.org/confluence/display/ROLLER">Project Wiki</a></li>
+                        <li><a href="https://twitter.com/apache_roller">Twitter</a></li>
+                        <li><a href="https://www.openhub.net/p/roller">Open Hub Page</a></li>
+                        <li><a href="https://cwiki.apache.org/confluence/display/ROLLER/Roller+Mailing+Lists">Mailing Lists</a></li>
+                        <li><a href="/project/whoweare.html">Who We Are</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Get Involved <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="https://issues.apache.org/jira/browse/ROL">Issue Tracker</a></li>
+                        <li><a href="https://cwiki.apache.org/confluence/display/ROLLER/Developer+Resources">Development Information</a></li>
+                        <li><a href="http://svn.apache.org/viewvc/roller/">Browse Source</a></li>
+                        <li><a href="https://builds.apache.org/job/Roller/">Jenkins CI</a></li>
+                        <li><a href="https://analysis.apache.org/dashboard/index/org.apache.roller:roller-project">Sonar Analysis</a></li>
+                        <li><a href="/getinvolved/edit_website.html">Website Admin</a></li>
+                    </ul>
+                </li>
+                <li><a href="./downloads/downloads.html">Download</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">ASF <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="http://www.apache.org/foundation/">Foundation</a></li>
+                        <li><a href="http://projects.apache.org/">Projects</a></li>
+                        <li><a href="http://people.apache.org/">People</a></li>
+                        <li><a href="http://www.apache.org/foundation/sponsorship.html">Support Apache</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+
+<div class="markdown-content">
+
+<div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+        <h1>Edit Website</h1>
+        <p><p>The Roller website is generated using <a href="http://jbake.org">JBake</a> and Maven. Content is written in <a href="http://daringfireball.net/projects/markdown/syntax">Markdown</a>. Page layouts are written in HTML within <a href="http://freemarker.org">FreeMarker</a> template files. The HTML uses the Bootstrap framework. The website is stored in a Git repository and when you push your changes to the asf_site branch, after a short delay, the changes will go live on the website.</p><h2>Prerequisites</h2><p>This page is not a tutorial. To update the website you will have to understand how JBake, Markdown and possibly HTML and Bootstrap work. Refer to the links above for documentation on those topics. You'll also need this software installed on your machine to update the website:</p>
+<ul>
+  <li>Git</li>
+  <li>Java</li>
+  <li>Maven</li>
+</ul><h2>Git repository layout</h2>
+<pre><code>|-- content                     &lt;-- The automatically generated website, don&#39;t edit things here!
+|
+|-- sources
+    |
+    |-- pom.xml                 &lt;-- Maven POM file that controls the generation
+    |
+    |-- src
+        |
+        |-- main
+            |
+            |-- jbake
+                |
+                |-- assets      &lt;-- Static files to be copied into the generated website
+                |
+                |-- content     &lt;-- One markdown page for each page of the website
+                |
+                |-- templates   &lt;-- Freemarker templates for website HTML layout
+</code></pre><h2>Steps to update the website</h2>
+<ol>
+  <li><p>Use Git to clone the roller-website repo, for example:</p><p><code>git clone https://git-wip-us.apache.org/repos/asf/roller-website.git</code></p></li>
+  <li><p>Go to the roller-website directory, make sure you are on the master branch:</p><p><code>cd roller-website</code><br/><code>git checkout master</code></p></li>
+  <li><p>Make your changes to Markdowna (.md) and FreeMarker (.ftl) files under the source directory.</p></li>
+  <li><p>Generate the website via Maven. Running mvn install will generate the website into the roller-website/content directory.</p><p><code>cd roller-website/sources</code><br/><code>mvn install</code></p><p>Or alternatively, run <code>mvn jbake:inline</code> so you can view the website locally at <a href="http://localhost:8080">http://localhost:8080</a></p></li>
+  <li><p>Once the site looks good, commit your changes and merge them into the asf_site branch.</p><p><code>git commit -m &quot;my wonderful changes&quot; .</code><br/><code>git checkout asf_site</code><br/><code>git merge master</code></p></li>
+  <li><p>Push your changes to the ASF Git repo. The ASF website infrastructure will pick up your changes and publish them to the website.</p></li>
+</ol></p>
+    </div>
+</div>
+
+</div>
+
+<div class="container">
+    <hr>
+    <footer>
+        <p>Copyright &copy; 2016 The Apache Software Foundation, Licensed under the
+            <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.</p>
+    </footer>
+</div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>

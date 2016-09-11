@@ -1,0 +1,188 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+    .sprite {
+        display: inline-block;
+        height: 20px;
+        margin: 0 auto 4px;
+        outline: medium none;
+        text-indent: -999em;
+        width: 24px;
+        background-image: url('{{base}}images/sprites.png');
+        background-repeat: no-repeat;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    .edit-page {
+        display: inline-block;
+        height: 20px;
+        margin: 0 auto 4px;
+        outline: medium none;
+        text-indent: -999em;
+        width: 24px;
+        background-image: url('{{base}}images/edit.png');
+        background-repeat: no-repeat;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    .markdown-content {
+        min-height: 500px;
+    }
+    .book-image img {
+      border: 1px;
+      border-style: solid;
+    }
+    .release-matrix .heading {
+        background-color: #eeeeee;
+    }
+    .release-matrix .new {
+        color: #dd0000;
+        font-weight: bolder;
+    }
+    .stub,.note {
+        position: relative;
+        padding: 7px 15px;
+        margin-bottom: 18px;
+        color: #404040;
+        background-color: #eedc94;
+        background-repeat: repeat-x;
+        background-image: -khtml-gradient(linear, left top, left bottom, from(#fceec1), to(#eedc94));
+        background-image: -moz-linear-gradient(top, #fceec1, #eedc94);
+        background-image: -ms-linear-gradient(top, #fceec1, #eedc94);
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fceec1), color-stop(100%, #eedc94));
+        background-image: -webkit-linear-gradient(top, #fceec1, #eedc94);
+        background-image: -o-linear-gradient(top, #fceec1, #eedc94);
+        background-image: linear-gradient(top, #fceec1, #eedc94);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fceec1', endColorstr='#eedc94', GradientType=0);
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+        border-color: #eedc94 #eedc94 #e4c652;
+        border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+        border-width: 1px;
+        border-style: solid;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+        -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+    }
+    
+    div.XXXisis-tweak form {
+        margin-top: 6px;
+        margin-bottom: -2px;
+    }
+    
+    div.row div.col-md-12 {
+      border-top: 1px solid #eeeeee;
+   }
+
+    .container {
+      width: 940px;
+    }
+
+    /* From Apache Isis 
+
+    div.row div.col-md-12 {
+      margin-top: 20px;
+    }
+
+    .markdown-content .documentation .span-one-third p {
+      margin-bottom: 0px;
+    }
+
+    .container .markdown-content .group,
+    .markdown-content .documentation .group {
+      margin-top: 9px;
+    }
+
+    .container .group h2,
+    .documentation .group h2 {
+      border-bottom: 1px solid #DDD
+    }
+
+    .container h2 a[name],
+    .documentation h2 a[name] {
+        padding-top: 50px;
+        margin-top: -50px;
+    }
+    
+    .container h2 a[name],
+    .container h3 a[name],
+    .container h4 a[name],
+    .documentation h2 a[name],
+    .documentation h3 a[name],
+    .documentation h4 a[name] {
+        color: black;
+        display: inline-block; 
+    }
+    .container h2 a[name]:hover,
+    .container h3 a[name]:hover,
+    .container h4 a[name]:hover,
+    .documentation h2 a[name]:hover,
+    .documentation h3 a[name]:hover,
+    .documentation h4 a[name]:hover {
+        text-decoration: none;
+    }
+
+    .documentation h2 a:not([name]),
+    .documentation h3 a:not([name]),
+    .documentation h4 a:not([name]) {
+      padding: 0 3px 2px;
+      font-family: Monaco, Andale Mono, Courier New, monospace;
+      font-size: 12px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+      padding: 1px 3px;
+    }
+    
+    .page-header {
+      margin-top: 0px;
+    }
+
+    .container blockquote p {
+        font-size: small;
+    }
+
+    .container blockquote p:not([author]) {
+        font-style: italic;
+    }
+
+    .container blockquote p {
+        font-size: small;
+        font-style: italic;
+        font-weight: bold;
+    }
+    
+    footer hr {
+        margin-top: 100px;
+    }
+
+    .markdown-content img {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .markdown-content a img {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    } */
+
