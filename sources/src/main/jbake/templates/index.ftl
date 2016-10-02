@@ -37,7 +37,7 @@
             <p>Roller's installation guide covers deployment on Tomcat, GlassFish, and JBoss application servers using a MySQL,
                 Derby, or PostgreSQL database. Users however have reported success running Roller on other app servers and databases.</p>
             <p><a class="btn btn-default" href="https://dist.apache.org/repos/dist/release/roller/roller-5.1/v5.1.1/docs/" role="button">Current Release Docs (PDF) &raquo;</a>
-                <a class="btn btn-default" href="http://svn.apache.org/viewvc/roller/trunk/docs/" role="button">Latest Nightly Docs (ODT) &raquo;</a></p>
+                <a class="btn btn-default" href="https://github.com/apache/roller/tree/master/docs" role="button">Latest Nightly Docs (ODT) &raquo;</a></p>
         </div>
     </div>
 </div>

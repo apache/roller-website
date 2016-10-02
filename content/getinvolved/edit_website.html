@@ -32,7 +32,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="./index.html">Apache Roller</a>
+            <a class="navbar-brand" href="/index.html">Apache Roller</a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -52,13 +52,13 @@
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="https://issues.apache.org/jira/browse/ROL">Issue Tracker</a></li>
                         <li><a href="https://cwiki.apache.org/confluence/display/ROLLER/Developer+Resources">Development Information</a></li>
-                        <li><a href="http://svn.apache.org/viewvc/roller/">Browse Source</a></li>
+                        <li><a href="https://github.com/apache/roller">Browse Source</a></li>
                         <li><a href="https://builds.apache.org/job/Roller/">Jenkins CI</a></li>
                         <li><a href="https://analysis.apache.org/dashboard/index/org.apache.roller:roller-project">Sonar Analysis</a></li>
                         <li><a href="/getinvolved/edit_website.html">Website Admin</a></li>
                     </ul>
                 </li>
-                <li><a href="./downloads/downloads.html">Download</a></li>
+                <li><a href="/downloads/downloads.html">Download</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">ASF <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
@@ -79,12 +79,15 @@
     <!-- Example row of columns -->
     <div class="row">
         <h1>Edit Website</h1>
-        <p><p>The Roller website is generated using <a href="http://jbake.org">JBake</a> and Maven. Content is written in <a href="http://daringfireball.net/projects/markdown/syntax">Markdown</a>. Page layouts are written in HTML within <a href="http://freemarker.org">FreeMarker</a> template files. The HTML uses the Bootstrap framework. The website is stored in a Git repository and when you push your changes to the asf_site branch, after a short delay, the changes will go live on the website.</p><h2>Prerequisites</h2><p>This page is not a tutorial. To update the website you will have to understand how JBake, Markdown and possibly HTML and Bootstrap work. Refer to the links above for documentation on those topics. You'll also need this software installed on your machine to update the website:</p>
+        <p><p>The Roller website is generated using <a href="http://jbake.org">JBake</a> and Maven. Content is written in <a href="http://daringfireball.net/projects/markdown/syntax">Markdown</a>. Page layouts are written in HTML within <a href="http://freemarker.org">FreeMarker</a> template files. The HTML uses the Bootstrap framework. The website is stored in a Git repository and when you push your changes to the asf_site branch, after a short delay, the changes will go live on the website.</p>
+<h2>Prerequisites</h2>
+<p>This page is not a tutorial. To update the website you will have to understand how JBake, Markdown and possibly HTML and Bootstrap work. Refer to the links above for documentation on those topics. You'll also need this software installed on your machine to update the website:</p>
 <ul>
   <li>Git</li>
   <li>Java</li>
   <li>Maven</li>
-</ul><h2>Git repository layout</h2>
+</ul>
+<h2>Git repository layout</h2>
 <pre><code>|-- content                     &lt;-- The automatically generated website, don&#39;t edit things here!
 |
 |-- sources
@@ -102,14 +105,30 @@
                 |-- content     &lt;-- One markdown page for each page of the website
                 |
                 |-- templates   &lt;-- Freemarker templates for website HTML layout
-</code></pre><h2>Steps to update the website</h2>
+</code></pre>
+<h2>Steps to update the website</h2>
 <ol>
-  <li><p>Use Git to clone the roller-website repo, for example:</p><p><code>git clone https://git-wip-us.apache.org/repos/asf/roller-website.git</code></p></li>
-  <li><p>Go to the roller-website directory, make sure you are on the master branch:</p><p><code>cd roller-website</code><br/><code>git checkout master</code></p></li>
-  <li><p>Make your changes to Markdowna (.md) and FreeMarker (.ftl) files under the source directory.</p></li>
-  <li><p>Generate the website via Maven. Running mvn install will generate the website into the roller-website/content directory.</p><p><code>cd roller-website/sources</code><br/><code>mvn install</code></p><p>Or alternatively, run <code>mvn jbake:inline</code> so you can view the website locally at <a href="http://localhost:8080">http://localhost:8080</a></p></li>
-  <li><p>Once the site looks good, commit your changes and merge them into the asf_site branch.</p><p><code>git commit -m &quot;my wonderful changes&quot; .</code><br/><code>git checkout asf_site</code><br/><code>git merge master</code></p></li>
-  <li><p>Push your changes to the ASF Git repo. The ASF website infrastructure will pick up your changes and publish them to the website.</p></li>
+  <li>
+    <p>Use Git to clone the roller-website repo, for example:</p>
+    <p><code>git clone https://git-wip-us.apache.org/repos/asf/roller-website.git</code></p>
+  </li>
+  <li>
+    <p>Go to the roller-website directory, make sure you are on the master branch:</p>
+    <p><code>cd roller-website</code><br/><code>git checkout master</code></p>
+  </li>
+  <li>
+  <p>Make your changes to Markdowna (.md) and FreeMarker (.ftl) files under the source directory.</p></li>
+  <li>
+    <p>Generate the website via Maven. Running mvn install will generate the website into the roller-website/content directory.</p>
+    <p><code>cd roller-website/sources</code><br/><code>mvn install</code></p>
+    <p>Or alternatively, run <code>mvn jbake:inline</code> so you can view the website locally at <a href="http://localhost:8080">http://localhost:8080</a></p>
+  </li>
+  <li>
+    <p>Once the site looks good, commit your changes and merge them into the asf_site branch.</p>
+    <p><code>git commit -m &quot;my wonderful changes&quot; .</code><br/><code>git checkout asf_site</code><br/><code>git merge master</code></p>
+  </li>
+  <li>
+  <p>Push your changes to the ASF Git repo. The ASF website infrastructure will pick up your changes and publish them to the website.</p></li>
 </ol></p>
     </div>
 </div>

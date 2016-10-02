@@ -32,7 +32,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="./index.html">Apache Roller</a>
+            <a class="navbar-brand" href="/index.html">Apache Roller</a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -52,13 +52,13 @@
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="https://issues.apache.org/jira/browse/ROL">Issue Tracker</a></li>
                         <li><a href="https://cwiki.apache.org/confluence/display/ROLLER/Developer+Resources">Development Information</a></li>
-                        <li><a href="http://svn.apache.org/viewvc/roller/">Browse Source</a></li>
+                        <li><a href="https://github.com/apache/roller">Browse Source</a></li>
                         <li><a href="https://builds.apache.org/job/Roller/">Jenkins CI</a></li>
                         <li><a href="https://analysis.apache.org/dashboard/index/org.apache.roller:roller-project">Sonar Analysis</a></li>
                         <li><a href="/getinvolved/edit_website.html">Website Admin</a></li>
                     </ul>
                 </li>
-                <li><a href="./downloads/downloads.html">Download</a></li>
+                <li><a href="/downloads/downloads.html">Download</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">ASF <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
@@ -79,23 +79,27 @@
     <!-- Example row of columns -->
     <div class="row">
         <h1>Downloads</h1>
-        <p><h2>Apache Roller Releases</h2><p>Releases of the Apache Roller blog server are made available to the<br/>general public at no charge, under the<br/><a href="http://apache.org/licenses/">Apache License,</a><br/>in both binary and source distributions.</p><p>General Availability (GA) Releases</strong> - <em>Ready for Prime Time!</em><br/><a href="http://www.apache.org/dyn/closer.cgi/roller/roller-5.1/v5.1.2/">Roller 5.1.2</a> (&quot;best available&quot;)</p><p>Previous source and binary distributions, including documentation,<br/>are available in the<br/><a class="external" href="http://archive.apache.org/dist/roller/"><br/>Apache archives</a>.</p><p>Project releases are approved by vote of the Apache Roller Project<br/>Management Committee (PMC). Support for a release is provided by project<br/>volunteers on the project<br/><a href="https://cwiki.apache.org/confluence/display/ROLLER/How+to+ask+for+help">mailing lists</a>.<br/>Bugs found in a release may be discussed on the list and<br/>reported through the<br/><a href="https://issues.apache.org/jira/browse/ROL">issue tracker</a>.<br/>The user mailing list and issue tracker are the <strong>only</strong><br/>support options hosted by the Apache Roller project.</p><p>Note: When downloading from a mirror, please be sure to verify that checksums and signatures are correct.<br/>To do so, use the checksum and signature files from the main Apache site at<br/><a class="external" href="http://www.apache.org/dyn/closer.cgi/roller/roller-5.1/v5.1.2/bin/"><a href="http://www.apache.org/dyn/closer.cgi/roller/roller-5.1/v5.1.2/bin/</a">http://www.apache.org/dyn/closer.cgi/roller/roller-5.1/v5.1.2/bin/</a</a><br/>Find here the KEYS file, which contains all OpenPGP keys we use to sign releases:<br/><a class="external" href="http://www.apache.org/dist/roller/"><a href="http://www.apache.org/dist/roller/</a">http://www.apache.org/dist/roller/</a</a></p><p>The PGP signatures can be verified using PGP or GPG.<br/>First download the<br/><a href="http://www.apache.org/dist/roller/KEYS">KEYS</a><br/>as well as the<br/><code>asc</code><br/>signature file for the particular<br/>distribution.<br/>Make sure you get these files from the<br/><a href="http://www.apache.org/dist/roller/">main distribution<br/> directory,</a><br/>rather than from a mirror.<br/>Then verify the signatures using</p>
-<pre><code>        % pgpk -a KEYS
-
-        % pgpv ${filename}.tar.gz.asc
-
-    or
-
-        % pgp -ka KEYS
-
-        % pgp ${filename}.tar.gz.asc
-
-    or
-
-        % gpg --import KEYS
-
-        % gpg --verify ${filename}.tar.gz.asc
-</code></pre><p>Alternatively, you can verify the MD5 signature on the files.<br/>A Unix program called<br/><code>md5</code><br/>or<br/><code>md5sum</code><br/>is<br/>included in many Unix distributions.<br/>It is also available as part of<br/><a href="http://www.gnu.org/software/textutils/textutils.html"><br/> GNU Textutils.</a><br/>Windows users can get binary md5 programs from<br/><a href="http://www.fourmilab.ch/md5/">here,</a><br/><a href="http://www.pc-tools.net/win32/freeware/console/"><br/> here,</a><br/>or<br/><a href="http://www.slavasoft.com/fsum/">here.</a></p><p>If you want to build directly from the sources, please check the <a href="https://cwiki.apache.org/confluence/display/ROLLER/How+to+build+Roller">Project Wiki</a>.</p></p>
+        <p><h2>Apache Roller Releases</h2>
+<p>Releases of the Apache Roller blog server are made available to the general public at no charge, under the <a href="http://apache.org/licenses/">Apache License,</a> in both binary and source distributions.</p>
+<h3>General Availability (GA) Releases</strong> - <em>Ready for Prime Time!</em></h3>
+<p><strong><a href="http://www.apache.org/dyn/closer.cgi/roller/roller-5.1/v5.1.2/">Roller 5.1.2</a> (&quot;best available&quot;)</strong></p>
+<p>Previous source and binary distributions, including documentation, are available in the <a class="external" href="http://archive.apache.org/dist/roller/">Apache archives</a>.</p>
+<p>Project releases are approved by vote of the Apache Roller Project Management Committee (PMC). Support for a release is provided by project volunteers on the project <a href="https://cwiki.apache.org/confluence/display/ROLLER/How+to+ask+for+help">mailing lists</a>. Bugs found in a release may be discussed on the list and reported through the <a href="https://issues.apache.org/jira/browse/ROL">issue tracker</a>. The user mailing list and issue tracker are the <strong>only</strong> support options hosted by the Apache Roller project.</p>
+<p>Note: When downloading from a mirror, please be sure to verify that checksums and signatures are correct. To do so, use the checksum and signature files from the main Apache site at <a class="external" href="http://www.apache.org/dyn/closer.cgi/roller/roller-5.1/v5.1.2/bin/"><a href="http://www.apache.org/dyn/closer.cgi/roller/roller-5.1/v5.1.2/bin/">http://www.apache.org/dyn/closer.cgi/roller/roller-5.1/v5.1.2/bin/</a></a><br/>Find here the KEYS file, which contains all OpenPGP keys we use to sign releases:<br/><a class="external" href="http://www.apache.org/dist/roller/"><a href="http://www.apache.org/dist/roller/">http://www.apache.org/dist/roller/</a></a></p>
+<p>The PGP signatures can be verified using PGP or GPG. First download the <a href="http://www.apache.org/dist/roller/KEYS">KEYS</a> as well as the <code>asc</code> signature file for the particular distribution. Make sure you get these files from the <a href="http://www.apache.org/dist/roller/">main distribution directory,</a> rather than from a mirror. Then verify the signatures using <code>pgpk</code> as follows:</p>
+<pre><code>% pgpk -a KEYS
+% pgpv ${filename}.tar.gz.asc
+</code></pre>
+<p>or</p>
+<pre><code>% pgp -ka KEYS
+% pgp ${filename}.tar.gz.asc
+</code></pre>
+<p>or</p>
+<pre><code>% gpg --import KEYS
+% gpg --verify ${filename}.tar.gz.asc
+</code></pre>
+<p>Alternatively, you can verify the MD5 signature on the files. A Unix program called<br/><code>md5</code> or <code>md5sum</code> is included in many Unix distributions. It is also available as part of <a href="http://www.gnu.org/software/textutils/textutils.html">GNU Textutils.</a> Windows users can get binary md5 programs from <a href="http://www.fourmilab.ch/md5/">here,</a> <a href="http://www.pc-tools.net/win32/freeware/console/">here,</a> or <a href="http://www.slavasoft.com/fsum/">here</a>.</p>
+<p>If you want to build directly from the sources, please check the <a href="https://cwiki.apache.org/confluence/display/ROLLER/How+to+build+Roller">Project Wiki</a>.</p></p>
     </div>
 </div>
 

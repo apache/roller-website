@@ -32,7 +32,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="./index.html">Apache Roller</a>
+            <a class="navbar-brand" href="/index.html">Apache Roller</a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -52,13 +52,13 @@
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="https://issues.apache.org/jira/browse/ROL">Issue Tracker</a></li>
                         <li><a href="https://cwiki.apache.org/confluence/display/ROLLER/Developer+Resources">Development Information</a></li>
-                        <li><a href="http://svn.apache.org/viewvc/roller/">Browse Source</a></li>
+                        <li><a href="https://github.com/apache/roller">Browse Source</a></li>
                         <li><a href="https://builds.apache.org/job/Roller/">Jenkins CI</a></li>
                         <li><a href="https://analysis.apache.org/dashboard/index/org.apache.roller:roller-project">Sonar Analysis</a></li>
                         <li><a href="/getinvolved/edit_website.html">Website Admin</a></li>
                     </ul>
                 </li>
-                <li><a href="./downloads/downloads.html">Download</a></li>
+                <li><a href="/downloads/downloads.html">Download</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">ASF <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
