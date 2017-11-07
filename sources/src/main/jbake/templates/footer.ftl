@@ -3,7 +3,7 @@
 <div class="container">
     <hr>
     <footer>
-        <p>Copyright &copy; 2016 The Apache Software Foundation, Licensed under the
+        <p>Copyright &copy; 2017 The Apache Software Foundation, Licensed under the
             <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.</p>
     </footer>
 </div>
