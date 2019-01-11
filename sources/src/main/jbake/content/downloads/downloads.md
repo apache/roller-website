@@ -14,7 +14,7 @@ Previous source and binary distributions, including documentation, are available
 
 Project releases are approved by vote of the Apache Roller Project Management Committee (PMC). Support for a release is provided by project volunteers on the project <a href="https://cwiki.apache.org/confluence/display/ROLLER/How+to+ask+for+help">mailing lists</a>. Bugs found in a release may be discussed on the list and reported through the <a href="https://issues.apache.org/jira/browse/ROL">issue tracker</a>. The user mailing list and issue tracker are the <strong>only</strong> support options hosted by the Apache Roller project.
 
-Note: When downloading from a mirror, be sure to verify that checksums and/or signatures are correct. To do so, use the checksum and signature files from the main Apache site at <a class="external" href="http://www.apache.org/dist/roller/">http://www.apache.org/dist/roller/</a>
+Note: When downloading from a mirror, be sure to verify that checksums and/or signatures are correct. To do so, use the checksum and signature files from the main Apache site at <a class="external" href="http://www.apache.org/dist/roller/">http://www.apache.org/dist/roller/</a>.
 
 The PGP signatures can be verified using PGP or GPG. First download the <a href="http://www.apache.org/dist/roller/KEYS">KEYS</a> as well as the ``asc`` signature file for the particular distribution. Make sure you get these files from the <a href="http://www.apache.org/dist/roller/">main distribution directory,</a> rather than from a mirror. Then verify the signatures using ``pgpk`` as follows:
 
