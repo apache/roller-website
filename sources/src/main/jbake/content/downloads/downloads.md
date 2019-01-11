@@ -19,7 +19,7 @@ Note: When downloading from a mirror, be sure to verify that checksums and/or si
 The PGP signatures can be verified using PGP or GPG. First download the <a href="http://www.apache.org/dist/roller/KEYS">KEYS</a> as well as the ``asc`` signature file for the particular distribution. Make sure you get these files from the <a href="http://www.apache.org/dist/roller/">main distribution directory,</a> rather than from a mirror. Then verify the signatures using ``pgpk`` as follows:
 
     % pgpk -a KEYS
-    % pgpv ${filename   }.tar.gz.asc
+    % pgpv ${filename}.tar.gz.asc
 
 or
 
