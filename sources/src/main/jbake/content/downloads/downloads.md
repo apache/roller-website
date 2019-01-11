@@ -31,7 +31,7 @@ or
     % gpg --import KEYS
     % gpg --verify ${filename}.tar.gz.asc
 
-Alternatively you can also verify the SHA256 checksum for each file. Apache Open Office provides a nice guide to verifying checksum here <a href="https://www.openoffice.org/download/checksums.html">How to verify the integrity of the downloaded file?</a>.
+Alternatively you can also verify the SHA256 checksum for each file. Apache Open Office provides a nice guide to verifying checksum here <a href="https://www.openoffice.org/download/checksums.html">How to verify the integrity of the downloaded file?</a>
 
 If you want to build directly from the sources, please check the <a href="https://cwiki.apache.org/confluence/display/ROLLER/How+to+build+Roller">Project Wiki</a>.
 
