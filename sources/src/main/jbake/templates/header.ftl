@@ -62,10 +62,13 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">ASF <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="http://www.apache.org/foundation/">Foundation</a></li>
-                        <li><a href="http://projects.apache.org/">Projects</a></li>
-                        <li><a href="http://people.apache.org/">People</a></li>
-                        <li><a href="http://www.apache.org/foundation/sponsorship.html">Support Apache</a></li>
+                        <li><a href="https://www.apache.org/foundation/" target="external">Foundation</a></li>
+                        <li><a href="https://www.apache.org/events/current-event" target="external">Events</a></li>
+                        <li><a href="https://projects.apache.org/" target="external">Projects</a></li>
+                        <li><a href="https://people.apache.org/" target="external">People</a></li>
+                        <li><a href="https://www.apache.org/foundation/sponsorship.html" target="external">Sponsorship</a></li>
+                        <li><a href="https://www.apache.org/foundation/thanks.html" target="external">Thanks</a></li>
+                        <li><a href="https://www.apache.org/licenses/" target="external">License</a></li>
                     </ul>
                 </li>
             </ul>
