@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    <meta name="description" content="Apache Roller is an open-source Java-based, full-featured, multi-user and group-blog server suitable for blog sites large and small.">
     <meta name="author" content="">
     <link rel="icon" href="/images/favicon.ico">
 
