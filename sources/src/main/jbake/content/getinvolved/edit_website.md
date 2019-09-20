@@ -42,10 +42,10 @@ This page is not a tutorial. To update the website you will have to understand h
 
     ```git clone https://git-wip-us.apache.org/repos/asf/roller-website.git```
 
-2. Go to the roller-website directory, make sure you are on the master branch:
+2. Go to the roller-website directory, make sure you are on the asf-site branch:
 
     ```cd roller-website```
-    ```git checkout master```
+    ```git checkout asf-site```
 
 2.  Make your changes to Markdowna (.md) and FreeMarker (.ftl) files under the source directory.
 
@@ -56,11 +56,10 @@ This page is not a tutorial. To update the website you will have to understand h
 
     Or alternatively, run ```mvn jbake:inline``` so you can view the website locally at http://localhost:8080
 
-4. Once the site looks good, commit your changes and merge them into the asf_site branch.
+4. Once the site looks good, commit your changes to the asf_site branch.
 
     ```git commit -m "my wonderful changes" .```
-    ```git checkout asf_site```
-    ```git merge master```
+    ```git push origin asf-site```
 
 5. Push your changes to the ASF Git repo. The ASF website infrastructure will pick up your changes and publish them to the website.
 
