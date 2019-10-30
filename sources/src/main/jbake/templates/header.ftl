@@ -54,7 +54,7 @@
                         <li><a href="https://cwiki.apache.org/confluence/display/ROLLER/Developer+Resources">Development Information</a></li>
                         <li><a href="https://github.com/apache/roller">Browse Source</a></li>
                         <li><a href="https://builds.apache.org/job/Roller/">Jenkins CI</a></li>
-                        <li><a href="https://analysis.apache.org/dashboard/index/org.apache.roller:roller-project">Sonar Analysis</a></li>
+                        <li><a href="https://sonarcloud.io/dashboard?id=roller-master">Sonar Analysis</a></li>
                         <li><a href="/getinvolved/edit_website.html">Website Admin</a></li>
                     </ul>
                 </li>
