@@ -8,7 +8,7 @@ type=page
 Releases of the Apache Roller blog server are made available to the general public at no charge, under the <a href="http://apache.org/licenses/">Apache License,</a> in both binary and source distributions.
 
 ### General Availability (GA) Releases</strong> - <em>Ready for Prime Time!</em>
-__<a href="http://www.apache.org/dyn/closer.cgi/roller/roller-6.1/v6.1.1">Roller 6.1.1</a> (&quot;best available&quot;)__
+__<a href="http://www.apache.org/dyn/closer.cgi/roller/roller-6.1/v6.1.2">Roller 6.1.2</a> (&quot;best available&quot;)__
 
 Previous source and binary distributions, including documentation, are available in the <a class="external" href="http://archive.apache.org/dist/roller/">Apache archives</a>.
 
