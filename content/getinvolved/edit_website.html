@@ -88,12 +88,12 @@
 <h2>Prerequisites</h2>
 <p>This page is not a tutorial. To update the website you will have to understand how JBake, Markdown and possibly HTML and Bootstrap work. Refer to the links above for documentation on those topics. You'll also need this software installed on your machine to update the website:</p>
 <ul>
-  <li>Git</li>
-  <li>Java</li>
-  <li>Maven</li>
+<li>Git</li>
+<li>Java</li>
+<li>Maven</li>
 </ul>
 <h2>Git repository layout</h2>
-<pre><code>|-- content                     &lt;-- The automatically generated website, don&#39;t edit things here!
+<pre><code>|-- content                     &lt;-- The automatically generated website, don't edit things here!
 |
 |-- sources
     |
@@ -113,28 +113,34 @@
 </code></pre>
 <h2>Steps to update the website</h2>
 <ol>
-  <li>
-    <p>Use Git to clone the roller-website repo, for example:</p>
-    <p><code>git clone https://git-wip-us.apache.org/repos/asf/roller-website.git</code></p>
-  </li>
-  <li>
-    <p>Go to the roller-website directory, make sure you are on the asf-site branch:</p>
-    <p><code>cd roller-website</code><br/><code>git checkout asf-site</code></p>
-  </li>
-  <li>
-  <p>Make your changes to Markdowna (.md) and FreeMarker (.ftl) files under the source directory.</p></li>
-  <li>
-    <p>Generate the website via Maven. Running mvn install will generate the website into the roller-website/content directory.</p>
-    <p><code>cd roller-website/sources</code><br/><code>mvn install</code></p>
-    <p>Or alternatively, run <code>mvn jbake:inline</code> so you can view the website locally at <a href="http://localhost:8080">http://localhost:8080</a></p>
-  </li>
-  <li>
-    <p>Once the site looks good, commit your changes to the asf_site branch.</p>
-    <p><code>git commit -m &quot;my wonderful changes&quot; .</code><br/><code>git push origin asf-site</code></p>
-  </li>
-  <li>
-  <p>Push your changes to the ASF Git repo. The ASF website infrastructure will pick up your changes and publish them to the website.</p></li>
-</ol></p>
+<li>
+<p>Use Git to clone the roller-website repo, for example:</p>
+<p><code>git clone https://git-wip-us.apache.org/repos/asf/roller-website.git</code></p>
+</li>
+<li>
+<p>Go to the roller-website directory, make sure you are on the asf-site branch:</p>
+<p><code>cd roller-website</code><br />
+<code>git checkout asf-site</code></p>
+</li>
+<li>
+<p>Make your changes to Markdowna (.md) and FreeMarker (.ftl) files under the source directory.</p>
+</li>
+<li>
+<p>Generate the website via Maven. Running mvn install will generate the website into the roller-website/content directory.</p>
+<p><code>cd roller-website/sources</code><br />
+<code>mvn install</code></p>
+<p>Or alternatively, run <code>mvn jbake:inline</code> so you can view the website locally at <a href="http://localhost:8080">http://localhost:8080</a></p>
+</li>
+<li>
+<p>Once the site looks good, commit your changes to the asf_site branch.</p>
+<p><code>git commit -m &quot;my wonderful changes&quot; .</code><br />
+<code>git push origin asf-site</code></p>
+</li>
+<li>
+<p>Push your changes to the ASF Git repo. The ASF website infrastructure will pick up your changes and publish them to the website.</p>
+</li>
+</ol>
+</p>
     </div>
 </div>
 
