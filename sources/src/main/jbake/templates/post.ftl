@@ -2,11 +2,8 @@
 
 
 <div class="container">
-    <!-- Example row of columns -->
-    <div class="row">
-        <h1>${content.title}</h1>
-        <p>${content.body}</p>
-    </div>
+    <h1>${content.title}</h1>
+    <p>${content.body}</p>
 </div>
 
 <#include "footer.ftl">

@@ -1,7 +1,23 @@
-/* Move down content because we have a fixed navbar that is 50px tall */
+/* leave room for the fixed navbar */
 body {
-  padding-top: 50px;
+  padding-top: 70px;
   padding-bottom: 20px;
+}
+
+/* vertical rhythm for markdown-generated prose */
+.markdown-content h1 {
+  margin-bottom: 1rem;
+}
+.markdown-content h2,
+.markdown-content h3 {
+  margin-top: 1.5rem;
+}
+
+pre {
+  padding: 1rem;
+  background-color: var(--bs-tertiary-bg);
+  border: 1px solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
 }
 
 .theme-dropdown .dropdown-menu {

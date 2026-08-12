@@ -1,15 +1,15 @@
 <#include "header.ftl">
 
-<!-- Main jumbotron for a primary marketing message or call to action -->
-<div class="jumbotron">
+<!-- Hero -->
+<div class="bg-body-tertiary py-5 mb-4">
     <div class="container">
-        <div class="row">
+        <div class="row align-items-center">
             <div class="col-md-2">
-                <img src="images/steamroller5.jpg" alt="Roller Logo" class="img-responsive">
+                <img src="images/steamroller5.jpg" alt="Roller Logo" class="img-fluid">
             </div>
             <div class="col-md-10">
-                <h1>Blog Better.</h1>
-                <p>Apache Roller is a Java-based, full-featured, multi-user and group-blog server suitable for blog sites large and small.</p>
+                <h1 class="display-4 fw-bold">Blog Better.</h1>
+                <p class="fs-4">Apache Roller is a Java-based, full-featured, multi-user and group-blog server suitable for blog sites large and small.</p>
                 <p><a class="btn btn-primary btn-lg" role="button" href="https://cwiki.apache.org/confluence/display/ROLLER/PoweredByRoller">Our Community &raquo;</a></p>
             </div>
         </div>
@@ -17,7 +17,6 @@
 </div>
 
 <div class="container">
-    <!-- Example row of columns -->
     <div class="row">
         <div class="col-md-6">
             <h2>Features</h2>
@@ -37,7 +36,7 @@
             <p>Roller's installation guide covers deployment on Tomcat using a MySQL database.
                Users however have reported success running Roller on other app servers and databases.</p>
             <p>
-                <a class="btn btn-default" href="https://github.com/apache/roller/blob/roller-6.0.x/docs/" role="button">Docs for latest release in AsciiDocs format</a>
+                <a class="btn btn-outline-secondary" href="https://github.com/apache/roller/blob/roller-6.0.x/docs/" role="button">Docs for latest release in AsciiDocs format</a>
             </p>
         </div>
     </div>

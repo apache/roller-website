@@ -4,7 +4,7 @@
     <hr>
     <footer>
         <p>
-            Copyright &copy; 2024 The Apache Software Foundation.
+            Copyright &copy; 2026 The Apache Software Foundation.
             <a href="https://www.apache.org/licenses/" target="external">
                 Licensed under the  Apache License, Version 2.0
             </a>.
@@ -20,7 +20,6 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="/js/jquery-1.11.1.min.js"></script>
-<script src="/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+<script src="/bootstrap-5.3.8/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
