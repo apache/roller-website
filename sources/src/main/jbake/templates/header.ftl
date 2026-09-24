@@ -52,6 +52,7 @@
                     </ul>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="/downloads/downloads.html">Download</a></li>
+                <li class="nav-item"><a class="nav-link" href="/security.html">Security</a></li>
                 <li class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">ASF</a>
                     <ul class="dropdown-menu">
