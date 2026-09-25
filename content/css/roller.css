@@ -111,7 +111,7 @@ pre {
    }
 
     .container {
-      width: 940px;
+      max-width: 940px;
     }
 
     /* From Apache Isis 
