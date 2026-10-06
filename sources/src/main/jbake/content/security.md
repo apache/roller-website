@@ -13,6 +13,10 @@ A useful report says which Roller version you tested, how the site is configured
 
 The Apache Security Team forwards the report to the Roller PMC, and coordination continues on a private list. See the <a class="external" href="https://www.apache.org/security/">ASF security page</a> for the foundation-wide policy that governs this process.
 
+### Security model
+
+The <a class="external" href="https://github.com/apache/roller/blob/master/docs/security-model.md">Roller security model</a> explains who Roller trusts, what each kind of user may do, the boundaries Roller keeps, and what is out of scope. Please read it before you report an issue.
+
 ### What happens next
 
 We acknowledge the report, investigate it, and tell you whether we accept it. Accepted reports get a CVE identifier, a fix, and a release. We ask reporters to keep the details private until the fix is released, and we credit reporters in the advisory unless they prefer otherwise.

@@ -63,7 +63,6 @@
                         <li><a class="dropdown-item" href="https://www.apache.org/foundation/sponsorship.html" target="external">Sponsorship</a></li>
                         <li><a class="dropdown-item" href="https://www.apache.org/foundation/thanks.html" target="external">Thanks</a></li>
                         <li><a class="dropdown-item" href="https://www.apache.org/licenses/" target="external">License</a></li>
-                        <li><a class="dropdown-item" href="https://www.apache.org/security/" target="external">Security</a></li>
                     </ul>
                 </li>
             </ul>
