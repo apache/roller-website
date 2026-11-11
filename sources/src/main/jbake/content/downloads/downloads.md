@@ -8,7 +8,9 @@ type=page
 Releases of the Apache Roller blog server are made available to the general public at no charge, under the <a href="http://apache.org/licenses/">Apache License,</a> in both binary and source distributions.
 
 ### General Availability (GA) Releases</strong> - <em>Ready for Prime Time!</em>
-__<a href="https://www.apache.org/dyn/closer.cgi/roller/roller-6.1/v6.1.6">Roller 6.1.6</a> (&quot;best available&quot;)__
+__<a href="https://www.apache.org/dyn/closer.lua/roller/roller-6.1/v6.1.7">Roller 6.1.7</a> (&quot;best available&quot;)__
+
+Read the <a href="https://github.com/apache/roller/blob/roller-6.1.7/CHANGES.md">6.1.7 release notes</a>, including the behaviour changes, before upgrading a live site.
 
 Previous source and binary distributions, including documentation, are available in the <a class="external" href="http://archive.apache.org/dist/roller/">Apache archives</a>.
 
@@ -31,7 +33,7 @@ or
     % gpg --import KEYS
     % gpg --verify ${filename}.tar.gz.asc
 
-Alternatively you can also verify the SHA-256 or SHA-512 checksum for each file (Roller 6.1.6 ships both, as ``.sha256`` and ``.sha512`` files). Apache Open Office provides a nice guide to verifying checksum here <a href="https://www.openoffice.org/download/checksums.html">How to verify the integrity of the downloaded file?</a>
+Alternatively you can also verify the SHA-256 or SHA-512 checksum for each file (Roller 6.1.7 ships both, as ``.sha256`` and ``.sha512`` files). Apache Open Office provides a nice guide to verifying checksum here <a href="https://www.openoffice.org/download/checksums.html">How to verify the integrity of the downloaded file?</a>
 
 If you want to build directly from the sources, please check the <a href="https://cwiki.apache.org/confluence/display/ROLLER/How+to+build+Roller">Project Wiki</a>.
 
